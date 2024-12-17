@@ -19,17 +19,15 @@ class BoostButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
-        gradient: const LinearGradient(
-          colors: AppColors.buttonBackgroundGradient, // Use custom gradient if provided
-          begin: Alignment.bottomCenter,
-          end: Alignment.topCenter,
-        ),
-        borderRadius: BorderRadius.circular(8.0), // Rounded corners
+        color: AppColors.brightYellow,
+        gradient: AppColors.buttonBackgroundGradient,
+        border: Border.all(color: Colors.white10,width: 3),
+        borderRadius: BorderRadius.circular(20.0), // Rounded corners
         boxShadow: [
           BoxShadow(
             color: Colors.black.withOpacity(0.2),
             blurRadius: 6.0,
-            offset: Offset(0, 3),
+            offset: const Offset(0, 3),
           ),
         ],
       ),

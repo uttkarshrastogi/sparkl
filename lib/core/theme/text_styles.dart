@@ -7,19 +7,18 @@ class AppTextStyles {
   // Headings (Display Styles)
   static final TextStyle displayLarge = GoogleFonts.poppins(
     fontSize: 57, // Typically used for very large display text
-    fontWeight: FontWeight.bold,
+    fontWeight: FontWeight.w500,
     color: AppColors.white,
   );
 
   static final TextStyle displayMedium = GoogleFonts.poppins(
     fontSize: 45,
-    fontWeight: FontWeight.bold,
+    fontWeight: FontWeight.w500,
     color: AppColors.white,
   );
 
-  static final TextStyle displaySmall = GoogleFonts.poppins(
+  static TextStyle displaySmall = GoogleFonts.poppins(
     fontSize: 36,
-    fontWeight: FontWeight.bold,
     color: AppColors.white,
   );
 
@@ -32,13 +31,13 @@ class AppTextStyles {
 
   static final TextStyle headlineMedium = GoogleFonts.poppins(
     fontSize: 28,
-    fontWeight: FontWeight.bold,
+    fontWeight: FontWeight.w300,
     color: AppColors.white,
   );
 
   static final TextStyle headlineSmall = GoogleFonts.poppins(
     fontSize: 24,
-    fontWeight: FontWeight.bold,
+    fontWeight: FontWeight.w500,
     color: AppColors.white,
   );
 

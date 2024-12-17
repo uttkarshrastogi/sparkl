@@ -7,7 +7,6 @@ import 'text_styles.dart';
 class AppTheme {
   static ThemeData get lightTheme {
     return ThemeData(
-
       appBarTheme: AppBarTheme(
         backgroundColor: Colors.transparent, // Use your primary color
         elevation: 0, // Remove shadow if desired
