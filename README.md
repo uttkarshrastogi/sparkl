@@ -1,16 +1,3 @@
-# brainboost
+# Overview
 
-an interactive game for boosting IQ
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Sparkl is a mobile application designed to provide an engaging and interactive **onboarding experience** for users. The app is built using the **Flutter framework**, delivering a seamless, dynamic, and visually appealing onboarding process. The app incorporates animations, videos, and other advanced UI components to guide users effectively.
